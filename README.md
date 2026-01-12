@@ -53,11 +53,17 @@ Run the shell:
 ## Sample commands inside MiniShell:
 
 msh> pwd
+
 msh> echo Hello World!
+
 msh> ls -l | grep ".c"
+
 msh> sleep 10 &
+
 msh> jobs
+
 msh> fg
+
 msh> exit
 
 ---

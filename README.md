@@ -74,16 +74,22 @@ PS1=NewPrompt>
 
 MiniShell> pwd
 /home/linux_engineer
+
 MiniShell> ls -l
 -rw-r--r-- 1 user user 1024 Jan 12 12:00 main.c
+
 MiniShell> sleep 10 &
 DEBUG: Created background process with PID 12345
+
 MiniShell> jobs
 [1]+ 12345 Running    sleep 10 &
+
 MiniShell> fg
 Bringing PID 12345 to foreground
+
 MiniShell> exit
 INFO: Exiting MiniShell. Goodbye!
+
 
 ---
 

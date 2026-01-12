@@ -46,21 +46,19 @@ gcc *.c -o msh
 
 ## Usage
 Run the shell:
-./a.out
+./msh
 
 ---
 
 ## Sample commands inside MiniShell:
 
-minishell> pwd
-/home/linux_engineer
-minishell> echo Hello World!
-Hello World!
-minishell> ls -l | grep ".c"
-minishell> sleep 10 &
-minishell> jobs
-minishell> fg
-minishell> exit
+msh> pwd
+msh> echo Hello World!
+msh> ls -l | grep ".c"
+msh> sleep 10 &
+msh> jobs
+msh> fg
+msh> exit
 
 ---
 
